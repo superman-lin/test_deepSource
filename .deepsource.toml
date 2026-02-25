@@ -1,0 +1,10 @@
+# DeepSource 配置 - 验证 JS 分析器对 Vue 2 的检测
+version = 1
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  plugins = ["vue"]
+  environment = ["browser", "nodejs"]
