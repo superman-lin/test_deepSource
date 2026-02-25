@@ -1,6 +1,9 @@
 # DeepSource 配置 - 验证 JS 分析器对 Vue 2 的检测
 version = 1
 
+# 排除与代码质量无关的文件，加快首次分析（可选）
+exclude_patterns = ["dist/", "node_modules/", "*.min.js", ".git/"]
+
 [[analyzers]]
 name = "javascript"
 enabled = true
