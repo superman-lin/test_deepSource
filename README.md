@@ -44,7 +44,8 @@ npx eslint "src/**/*.{js,vue}"
 2. 确保仓库/分析配置中启用了 **JavaScript** 分析器，且启用了 **Vue** 插件（或在仓库根目录使用本项目的 `.deepsource.toml`）。
 3. 触发一次分析，在 DeepSource 的 Issue 列表中查看上述文件是否被报出对应问题。
 
-## 参考
+## 参考 
+
 
 - [DeepSource - JavaScript Analyzer](https://docs.deepsource.com/docs/analyzers-javascript)
 - [eslint-plugin-vue Rules](https://eslint.vuejs.org/rules/)
