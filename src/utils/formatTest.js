@@ -7,9 +7,9 @@
  * - 行过长
  */
 
-const   foo   =   "bar"
-const obj={a:1,b:2,c:3}
-const arr=[1,2,3,4,5]
+const foo = "bar";
+const obj = { a: 1, b: 2, c: 3 };
+const arr = [1, 2, 3, 4, 5];
 /**
  * 测试用函数，用于触发 Prettier 格式修复
  * @param {number} a
@@ -17,6 +17,9 @@ const arr=[1,2,3,4,5]
  * @param {number} c
  * @returns {number}
  */
-function   test(  a,b,c   ){return a+b+c}
-const longLine = "这是一行非常长的字符串用于测试 Prettier 是否会自动换行，当超过默认的 80 字符限制时应该被格式化"
-export default { foo, obj, arr, test, longLine }
+function test(a, b, c) {
+  return a + b + c;
+}
+const longLine =
+  "这是一行非常长的字符串用于测试 Prettier 是否会自动换行，当超过默认的 80 字符限制时应该被格式化";
+export default { foo, obj, arr, test, longLine };
