@@ -11,3 +11,8 @@ enabled = true
   [analyzers.meta]
   plugins = ["vue"]
   environment = ["browser", "nodejs"]
+
+# 代码格式化器 - Prettier 自动修复代码风格
+[[code_formatters]]
+name = "prettier"
+enabled = true
