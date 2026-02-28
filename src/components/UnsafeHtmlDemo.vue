@@ -9,11 +9,11 @@
 
 <script>
 export default {
-  name: 'UnsafeHtmlDemo',
+  name: "UnsafeHtmlDemo",
   data() {
     return {
-      userInput: ''
-    }
-  }
-}
+      userInput: "",
+    };
+  },
+};
 </script>
